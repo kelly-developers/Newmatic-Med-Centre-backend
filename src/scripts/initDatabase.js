@@ -584,7 +584,7 @@ const initializeDatabase = async () => {
   }
 };
 
-// Auto-run if called directly
+// Auto-run if         called directly
 if (require.main === module) {
   initializeDatabase().catch(console.error);
 }
